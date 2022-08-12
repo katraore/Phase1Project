@@ -14,7 +14,7 @@ public class FileHandling {
 			input = sc2.nextInt();
 			switch (input)
 			{
-			// Creating file
+			// Creating file Menu options
 			case 1:
 				CreateFile();
 				break;
@@ -38,7 +38,7 @@ public class FileHandling {
 		
 	}
 	public void CreateFile() {
-		// 
+		// Adding file
 		
 	
 		Scanner sc3 = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class FileHandling {
 		String filename = sc3.nextLine().toLowerCase();
 		File file=new File(filename);
 		if(file != null)
-			// Adding file
+	
 		{
 		
 		try {
@@ -73,7 +73,7 @@ public class FileHandling {
 	
 	
 	public void SearchFile(String[] pathnames) {
-		// TODO Auto-generated method stub
+		// Searching file
 		System.out.println("Please type the name of the file you want to search: ");
 		Scanner sc4 = new Scanner(System.in);
 		String filePath = null;
@@ -90,7 +90,7 @@ public class FileHandling {
 	}
 
 	public void DeleteFile() {
-		// TODO Auto-generated method stub
+		// Deleting file
 		Scanner sc5 = new Scanner(System.in);
 		System.out.println("Please type the name of the file you want to delete: ");
 

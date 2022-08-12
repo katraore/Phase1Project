@@ -8,7 +8,7 @@ public class UserNameWelcome {
 	System.out.println();
 	System.out.println(" Welcome To Lockers Pvt. Ltd Application ");
 	System.out.println(" The Developer is  @"+str );
-	System.out.println(" Create Your Repository	");
+	
 	
 	}
 	public static void main(String[] arg) {
